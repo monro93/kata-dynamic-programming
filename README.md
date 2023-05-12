@@ -3,7 +3,7 @@
 Welcome to the dynamic programming workshop! In this workshop, we will be exploring dynamic programming and using it to solve a classic problem: given X number of dice, count the combinations that a number Y appears.
 
 ## Exercise 1: Count combinations for 1 die
-In this exercise, you will implement a class to count the number of combinations for one die using a simple loop. The dices of this exercise have 6 sides, numbered from 1 to 6. So for this exercise the number of combinations for a number between 1 and 6 is always 1 and otherwise 0.
+In this exercise, you will implement a class to count the number of combinations for one die. The dices of this exercise have 6 sides, numbered from 1 to 6. So for this exercise the number of combinations for a number between 1 and 6 is always 1 and otherwise 0.
 
 ### Example
 Input: `1, 6`
