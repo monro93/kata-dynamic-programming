@@ -22,7 +22,6 @@ class DiceCounterTest {
         assertEquals(expectedCombination, result)
     }
 
-    @Disabled("Do ex2 first")
     @ParameterizedTest
     @CsvSource("3, 15, 10", "4, 8, 35", "5, 12, 305", "7, 38, 210")
     fun `EX3_given n dices we get the expected result`(numberOfDices: Int, targetNumber: Int, expectedCombination: Int) {
