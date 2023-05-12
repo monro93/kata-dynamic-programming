@@ -30,7 +30,6 @@ class DiceCounterTest {
         assertEquals(expectedCombination, result)
     }
 
-    @Disabled("Do ex3 first")
     @Test
     fun `EX4_given 13 dices we get the expected result in a low time`() {
         val startTime = System.currentTimeMillis()
